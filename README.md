@@ -69,6 +69,14 @@ Aqui começamos, de fato, a desenvolver o modelo de regressão logística para i
 ## Considerações finais
 Este projeto é um modelo básico do que você precisa saber para se jogar no mercado!
 Eu dei o pontapé inicial, mas você precisa fazer a sua parte. Posso contar contigo?
-Vou listar aqui o que você precisa desenvolver para que esse seja um projeto de Credit Score completo
 
+Vou listar aqui o que você precisa desenvolver para que esse seja um projeto de Credit Score completo, tecnicamente falando:
+- separe a variável 'sexo_est_civil' nas variáveis 'sexo' e 'estado_civil' e analise o impacto disso no resultado
+- ao invés de utilizar o 'train_test_split' para dividir a base de dados em base de treino e base de teste, utilize o método de validação cruzada
+- utilize outro algoritmo mais aderente ao problema de dados desbalanceados (como o DecisionTreeClassifier) e compare os resultados
+- otimize os hiperparâmetros do algoritmo para tentar melhorar os resultados. Para isso, use o GridSearchCV.
+
+Falando pela ótica do negócio, 
+- no sistema financeiro, um indivíduo dificilmente é analisado sozinho. A ideia é analisar o comportamento de um grupo e ajustar esse indivíduo dentro de um grupo. Por isso, é muito comum trabalhar com faixas de classificação para esses indivíduos solicitantes de crédito.
+- Remodele o problema utilizando, ao invés da variável 'idade', uma variável 'faixa_idade' onde indivíduos de 18 a 30 anos pertencem à faixa 1, de 31 a 40 anos pertencem à faixa 2, de 41 à 50 anos pertencem à faixa 3 e daí por diante.
 
