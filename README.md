@@ -2,7 +2,7 @@
 Desenvolvimento de um modelo de concessão de crédito utilizando regressão logística.
 
 ## Data Source
-A base de dados utilizada para modelagem do problema está disponibilizada na pasta 'data'.
+A base de dados utilizada para modelagem do problema está disponibilizada neste repositório.
 
 ## Explicação conceitual sobre as técnicas e recursos utilizados no projeto
 Você vai encontrar uma explicação mais aprofundada no módulo Machine Learning 
