@@ -66,7 +66,7 @@ Aqui começamos, de fato, a desenvolver o modelo de regressão logística para i
 4. As métricas estatísticas são calculadas.
 5. Os resultados são avaliados.
 
-## Considerações finais
+## Agora é a sua vez!
 Este projeto é um modelo básico do que você precisa saber para se jogar no mercado!
 Eu dei o pontapé inicial, mas você precisa fazer a sua parte. Posso contar contigo?
 
